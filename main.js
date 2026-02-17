@@ -27,13 +27,13 @@ let resetplayer;
 
 var p3 = true;
 var p10 = 0;
-var ABInt = {red:0,green:2000,blue:2000};
+var ABInt = {red:2000,green:2000,blue:2000};
 var Cores = 1;
 var Clock = 1;
 var RUM = 1;
 var tab = "RGB";
 var subtab = {spectrum:"Upgrades"}
-var price = { red: 0, green: 5, blue: [0, 0, 0, 0] };
+var price = { red: 5, green: 5, blue: [0, 0, 0, 0] };
 var income = {red:0, green:0, blue: 0};
 var click = 5;
 var auto = 0;

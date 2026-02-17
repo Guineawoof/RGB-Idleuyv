@@ -27,7 +27,7 @@ let resetplayer;
 
 var p3 = true;
 var p10 = 0;
-var ABInt = {red:2000,green:2000,blue:2000};
+var ABInt = {red:0,green:2000,blue:2000};
 var Cores = 1;
 var Clock = 1;
 var RUM = 1;

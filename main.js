@@ -33,7 +33,7 @@ var Clock = 1;
 var RUM = 1;
 var tab = "RGB";
 var subtab = {spectrum:"Upgrades"}
-var price = { red: 5, green: 5, blue: [0, 0, 0, 0] };
+var price = { red: 0, green: 0, blue: [0, 0, 0, 0] };
 var income = {red:0, green:0, blue: 0};
 var click = 5;
 var auto = 0;
@@ -45,7 +45,7 @@ var PD = 0;
 var BPD = 0;
 var SR = 0;
 var SR5 = 0;
-var SpecPrice = [1, 1, 3, 5, 5, 7, 10, 30, 50, 75, 300, 500, 1500, 2500, 25000, 100000, 1e10, 1e13, 1e25, 1e35, 1e50];
+var SpecPrice = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function bar(n,r,g,b,elemid) {
     this.name = n;

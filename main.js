@@ -1,6 +1,6 @@
 var v = 1.12;
 var player = {
-    money: { red: Infinity, green: 0, blue: 0 },
+    money = { red: Infinity, green: 0, blue: 0 },
     pixels: { red: { max: 0, cur: 0 }, green: { max: 0, cur: 0 }, blue: { max: 0, cur: 0 }},
     level: { red: 0, green: 0, blue: [0,0,0,0]},
     unlock: false,
